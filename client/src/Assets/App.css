@@ -2,29 +2,23 @@
 /* html body {
   position: absolute;
 } */
-
 .app-background {
-
- 
+  min-height: 100vh; /* Let it grow with content */
   background-image: url("https://res.cloudinary.com/otisg/image/upload/v1630033584/chiefs-madden-image_nqzont.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-position: center center;
-  height: 100vh;
- 
+  background-position: center;
+  display: flex;
+  flex-direction: column;
 }
 
-
 .container1 {
-  /* height: 100%; */
-  margin-top: 500px;
+  padding: 4rem 1rem; /* remove massive margin, allow room */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
-
-
 /* 
 header {
   position: relative;

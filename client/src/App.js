@@ -57,6 +57,13 @@ function App() {
       </div>
     </div>
   );
+
+  console.log("ENV TEST:", process.env.REACT_APP_AIRTABLE_APP);
+  console.log("Base URL:", baseURL);
+console.log("Base ID:", process.env.REACT_APP_AIRTABLE_APP);
+console.log("API Key:", process.env.REACT_APP_AIRTABLE_KEY);
+
+
 }
 
 export default App;

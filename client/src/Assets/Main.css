@@ -1,75 +1,40 @@
 .main {
-   /* height: 100%; */
-  /* width: auto;   */
-  /* margin-top: 30px; */
-  margin-top: -320px; 
-  /* Adjust as needed */
-
-  /* border: 1px solid #ccc; */
-   /* Optional: Add border for visualization */
-   /* Optional: Add padding for spacing */
-  display: flex; 
-  /* Use flexbox for centering */
-  flex-direction: column; 
-  /* Stack items vertically */
-  align-items: center; 
-  /* Center items horizontally */
-  text-align: center; 
-  /* Center text */
+  flex: 1; /* allows it to grow and push footer down */
+  width: 100%;
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   color: red;
-  position: absolute;
-
+  box-sizing: border-box;
 }
+
 .intro {
   margin: 20px;
 }
 
-.start-link{
+.start-link {
   font-size: 30px;
   color: white;
+  text-decoration: none;
 }
 
-
-
-
-
-.main p{
-  font-size: 16px; /* Adjust text size as needed */
-        /* Add any other text styling as needed */
+.main p {
+  font-size: 16px;
 }
 
+/* Optional image styling - only use if you reintroduce img */
+.main img {
+  max-width: 100%;
+  height: auto;
+  margin: 2rem auto;
+}
 
-/* 
-main img{
+/* Optional logos container cleanup - if used */
+.logos-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-
-  width: 400px;
-  height: 800px;
-  position: absolute;
-  right: 200px;
-  flex-direction: column;
-  top: 80px;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
-/* .logos-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    width: 400px;
-    height: 800px;
-    position: absolute;
-    right: 200px;
-    flex-direction: column;
-    top: 80px;
-    margin-left: auto;
-    margin-right: auto;
-} */ 
-
-
-
-
+  align-items: center;
+  margin-top: 2rem;
+}
